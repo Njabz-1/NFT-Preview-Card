@@ -1,0 +1,105 @@
+@import url(https://fonts.google.com/specimen/Outfit);
+/* Styling the background itself*/
+.main-background {
+    height:100vh;
+    display: flex;
+    align-items: center;
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Outfit';
+    font-weight: 300;
+    justify-content: center;
+    
+}
+
+/* Styling for the card itself*/
+
+.card-background{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: hsl(216, 50%, 16%);
+    max-width: 250px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.card-top{
+    padding-bottom: 15px;
+}
+
+.card-img{
+    width: 30vw;
+    height: 30vh;
+    object-fit: cover;
+}
+
+.card-head {
+    font-weight: 600;
+    padding: 10px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between
+}
+
+.card-mid{
+    
+}
+/* Styling the heading */
+.card-head h1{
+    font-size: 18px;
+    color:hsl(0, 0%, 100%);
+    
+}
+
+/* Styling the text */
+.card-text {
+    font-size: 14px;
+    color: hsl(215, 51%, 70%);
+}
+
+.mini-text{
+    display: flex;
+    
+}
+
+.mini-text img{
+    padding-right: 4px;
+    margin-top: 5px;
+    width: 1em;
+    height: 1em;
+    
+}
+
+.mini-text .left{
+    color: hsl(178, 100%, 50%);
+    padding-right: 40px;
+}
+
+.mini-text .right{
+    color: hsl(215, 51%, 70%);
+}
+
+.line {
+    margin: 0;
+    background-color:hsl(215, 32%, 27%);
+}
+
+.footer{
+    display: flex;    
+    padding-top: 20px;
+}
+
+.footer img {
+    width: 1.5em;
+    height: 1.5em;
+    border: 1px solid;
+    border-radius: 10px;
+    border-color: white;
+    margin-right: 10px;
+}
+
+.footer p {
+    font-size: 14px;
+    color: hsl(215, 51%, 70%);
+}
